@@ -8,7 +8,7 @@
   </div>
   <div class="right-header">
     <div class="header-botton">
-      チャットを終了する
+      <%= link_to "チャットを終了する", room_path(@room), data: {turbo_method: :delete }%>
     </div>
   </div>
 </div>
